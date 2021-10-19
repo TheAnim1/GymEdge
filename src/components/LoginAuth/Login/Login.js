@@ -51,12 +51,12 @@ const Login = () => {
                             <button type="submit" className="btn-style">Login</button>
                         </div>
                         </form>
-                        <p>Already Have an Account? <Link to="/login">Login</Link> </p>
+                       
                     </div>
                     </div>
                 </div>
             </div>
-                <p>New to GymEdge? <Link to="/register">Register</Link> </p>
+                <p className="mt-3">New to GymEdge? <Link to="/register">Register</Link> </p>
             <div className="mt-4">
                 <h2>Or-</h2>
             </div>

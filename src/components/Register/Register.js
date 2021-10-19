@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useAuth from "../../Hooks/UseAuth";
 
 const Register = () => {
@@ -9,12 +9,16 @@ const Register = () => {
   
     return (
         <div>
-                 <div className="row justify-content-center mt-5">
+                 <div className="bottom">
+                <h1>Register</h1>
+            </div>
+            <div className="bread-crumps">
+                <NavLink to="/home" className="bc">Home/Register</NavLink>
+            </div>
+                 <div className="mb-5 row justify-content-center mt-5">
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="card shadow">
-                    <div className="card-title text-center border-bottom">
-                        <h2 className="p-3">Register</h2>
-                    </div>
+                   
                     <div className="card-body">
                         <form onSubmit={handleRegistration}>
                         <div className="mb-4">
