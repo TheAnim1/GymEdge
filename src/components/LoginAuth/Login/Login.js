@@ -30,9 +30,7 @@ const Login = () => {
             <div className="row justify-content-center mt-5">
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="card shadow">
-                    <div className="card-title text-center border-bottom">
-                        <h2 className="p-3">Register</h2>
-                    </div>
+                    
                     <div className="card-body">
                         <form onSubmit={handleLogin}>
                         <div className="mb-4">
