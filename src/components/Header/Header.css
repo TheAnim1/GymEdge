@@ -1,0 +1,37 @@
+.nav {
+  border-bottom: 3px solid #fb5b21;
+}
+.nav-hov:hover {
+  color: #fb5b21 !important;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+.log-btn {
+  border: 2px solid #fb5b21;
+  border-radius: 40px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.log-btn:hover {
+  color: #fff;
+  background-color: #fb5b21;
+  transition: all 0.5s;
+}
+.user-name {
+  color: #fb5b21 !important;
+}
+@media screen and (max-width: 480px) {
+  .log-btn {
+    display: block;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 0px;
+  }
+}

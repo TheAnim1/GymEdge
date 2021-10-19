@@ -1,0 +1,41 @@
+.bottom {
+  width: 300px;
+  position: relative;
+  z-index: 1;
+
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.bottom:before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+  height: 15px;
+  width: 85%;
+  border-bottom: 5px solid #fb5b21;
+}
+.title-color {
+  color: #fb5b21;
+  font-size: 25px;
+}
+
+.btn-style {
+  border: 2px solid #fb5b21;
+  border-radius: 65px;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.btn-style:hover {
+  color: #fff;
+  background-color: #fb5b21;
+  transition: all 0.5s;
+}

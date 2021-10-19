@@ -1,0 +1,47 @@
+.bg-img {
+  background-image: url(/src/images/bmi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bmi-misc h1 {
+  color: #fff;
+}
+.bmi-input {
+  background-color: transparent;
+  border: 2px solid #fb5b21;
+  border-radius: 65px;
+  color: #fb5b21;
+  padding: 7px 15px;
+  width: 130px;
+  margin-right: 5px;
+}
+
+.bmi-btn {
+  background-color: #fb5b21;
+  border-radius: 65px;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.bmi-btn:hover {
+  color: #fff;
+  background-color: #fb5b21c7;
+  transition: all 0.5s;
+}
+
+.bmi-info-color {
+  color: #fff;
+}
+
+.table-style {
+  color: #fff;
+  font-weight: 600;
+  background-color: rgba(251, 91, 33, 0.9);
+}

@@ -1,0 +1,15 @@
+.trainer-info {
+  width: 100%;
+  margin: 0 auto;
+}
+.trainer-name {
+  color: #fff;
+  background-color: #fb5b21;
+  padding: 10px;
+}
+.trainer-desc {
+  color: #fff;
+  background-color: #000000;
+  margin-top: -15px;
+  padding: 10px;
+}

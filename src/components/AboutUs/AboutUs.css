@@ -1,0 +1,27 @@
+.page-title h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #fb5b21;
+}
+.bread-crumps {
+  font-size: 30px;
+}
+.bc {
+  text-decoration: none;
+  color: #000;
+}
+.about-p {
+  font-size: 20px;
+}
+.tick-red {
+  color: #fb5b21;
+}
+
+.advantage-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fb5b21;
+}
+.advantage-text {
+  font-weight: bold;
+}
