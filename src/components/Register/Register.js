@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import useAuth from "../../Hooks/UseAuth";
 
 const Register = () => {
-    const {handleRegistration, handleEmail,handlePassword, error} = useAuth();
+    const {handleRegistration, handleEmail,handlePassword, error, handleName} = useAuth();
     
 
   
@@ -22,7 +22,11 @@ const Register = () => {
                     <div className="card-body">
                         <form onSubmit={handleRegistration}>
                         <div className="mb-4">
-                            <label htmlFor="inputEmaile3" className="form-label">Email</label>
+                            <label htmlFor="inputText3" className="form-label">Name</label>
+                            <input onBlur={handleName} type="text" className="form-control" id="inputText3" required/>
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="inputEmail3" className="form-label">Email</label>
                             <input onBlur={handleEmail} type="email" className="form-control" id="inputEmail3" required/>
                         </div>
                         <div className="mb-4">

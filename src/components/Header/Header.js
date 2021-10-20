@@ -7,6 +7,7 @@ import "./Header.css";
 
 const Header = () => {
     const {user, logOut} = useAuth()
+    console.log(user)
     return (
         <>
          <Navbar collapseOnSelect expand="lg" variant="light" bg="light" sticky="top" className="nav">
@@ -39,7 +40,7 @@ const Header = () => {
             
                 {user?.email && 
                      <Navbar.Text className="user-name"> 
-                         Signed in as: <a href="#login">{user?.email}</a>
+                         Signed in as: <a href="#login">{user?.displayName}</a>
                          </Navbar.Text>  
                }
             
